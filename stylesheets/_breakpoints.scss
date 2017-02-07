@@ -2,6 +2,8 @@
 // Breakpoint Config
 // ==========================================================================
 
+@import "tool-global-config";
+
 @include breakpoint-set('to ems', true);
 
 // Build width-based breakpoints from the grid
