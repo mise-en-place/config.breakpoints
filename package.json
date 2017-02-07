@@ -5,7 +5,7 @@
   "main": "stylesheets/_breakpoints.scss",
   "eyeglass": {
     "needs": "^1.0.0",
-    "name": "breakpoints",
+    "name": "config-breakpoints",
     "exports": "eyeglass-exports.js"
   },
   "keywords": [
@@ -18,5 +18,9 @@
     "url": "https://github.com/mise-en-place/config.breakpoints.git"
   },
   "author": "Kind",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "mep-tools.global-config": "github:mise-en-place/tools.global-config",
+    "breakpoint-sass": "^2.7.1"
+  }
 }
