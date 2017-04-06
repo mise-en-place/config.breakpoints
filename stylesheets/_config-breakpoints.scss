@@ -2,8 +2,8 @@
 // Breakpoint Config
 // ==========================================================================
 
-@import "tool-global-config";
-@import "breakpoint";
+@import "~mep-tools.global-config";
+@import "~breakpoint-sass";
 
 @include breakpoint-set('to ems', true);
 

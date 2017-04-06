@@ -1,15 +1,9 @@
 {
   "name": "mep-config.breakpoints",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Config settings for breakpoints",
   "main": "stylesheets/_breakpoints.scss",
-  "eyeglass": {
-    "needs": "^1.0.0",
-    "name": "config-breakpoints",
-    "exports": "eyeglass-exports.js"
-  },
   "keywords": [
-    "eyeglass-module",
     "sass",
     "mise-en-place"
   ],
